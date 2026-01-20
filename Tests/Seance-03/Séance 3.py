@@ -109,16 +109,3 @@ categories = pd.cut(surface, bins=bins, labels=labels, right=True, include_lowes
 compte = categories.value_counts().sort_index()
 print("nombre d'île / catégorie de surface :")
 print(compte)
-
-
-
-
-
-
-
-
-
-
-
-
-
